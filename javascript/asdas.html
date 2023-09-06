@@ -1,0 +1,30 @@
+
+
+<div>
+  <input type="number" id="input" value="20">
+  <p id="contador"></p>
+</div>
+
+<style>
+  :root{
+    --text : 21px
+  }
+  input{
+    display: none;
+  }
+</style>
+
+<script>
+  // const inputValue = document.getElementById('input').value + "%";
+
+  // const pContador = document.getElementById('contador');
+
+  // pContador.textContent = inputValue;
+
+  const atual = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--text'));
+
+  
+
+  console.log(atual)
+
+</script>
