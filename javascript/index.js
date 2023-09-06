@@ -307,7 +307,7 @@ checkbox.addEventListener('change', function() {
 
     const rootStyles = document.documentElement.style;
 
-    if (this.checked) {c
+    if (this.checked) {
         const icon = document.querySelector('.bx-moon');
         const containerIcons = document.getElementById("container-icon")
 
