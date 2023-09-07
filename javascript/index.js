@@ -278,7 +278,7 @@ const handleClick  = async (data , i) => {
 }
 const PageLoaded = async (stats) => {
     //url base da api PokeApi
-    const url = 'https://pokeapi.co/api/v2/pokemon?limit=24&offset=0'
+    const url = 'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0'
     try {
         
         const response = await fetch(url)
