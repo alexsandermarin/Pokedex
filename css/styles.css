@@ -449,6 +449,10 @@ main{
                         height: 100%;
                     }
 
+                    .secondary-painel .input-area input{
+                        display: none;
+                    }
+
                     .secondary-painel .input-area i{
                         display: block;
                     }
