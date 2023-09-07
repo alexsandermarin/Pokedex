@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="author" content="Alexsander Marinho de Oliveira Filho">
+    <meta name="description" content="Pokedex 1° geracao utilizando HTML , CSS & JAVASCRIPT">
+    <meta name="keywords" content="pokedex , pokemon , projetos js , html">
+    
+    <title>Pokedex ByAlexsander</title>
+</head>
+<body>
+    <main>
+        <section class="primary-painel">
+            <div class="text-area">
+                
+                <h1>Pokedex<span> By Alexsander M. Oliveira</span></h1>
+                <div style="display: flex; justify-content: center;">
+                <div class="painel-font">
+                    <i style="font-size: 3.6rem;" class='bx bx-font-size' ></i>
+                    <i style="cursor: pointer;" onclick="adjFont(true)" class='bx bx-plus-circle'></i>
+                    <div id="display-por">100%</div>
+                    <i style="cursor: pointer;" onclick="adjFont(false)" class='bx bx-minus-circle'></i>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <div id="container-icon">
+                        <i class='bx bx-moon' ></i>
+                    </div>
+                    <label>
+                        <input type="checkbox" id="myCheckbox">
+                        <span></span>
+                    </label>
+                </div>
+                </div>
+            </div>
+            <div id="pokemon-container" class="pokemon-grid">
+            </div>
+        </section>
+        <section class="secondary-painel">
+            <div class="input-area">
+                <input type="text" placeholder="Press / Search your Pokemon" id="pokemon-data-input">
+            </div>
+            <div id="pokemon-painel" class="pokemon-painel-area">
+            </div>
+        </section>
+    </main>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
